@@ -9,7 +9,8 @@ const useForm = <T extends Object>(initState: T) => {
   };
 
   return { form, ...form, handleForm };
-  // Al pasar el spread de form, estoy devolviendo y construyendo un nuevo form con todo lo que este tiene.
+  // Al pasar el spread de form '{...form}', estoy devolviendo y construyendo un nuevo form
+  // con todo lo que este tiene.
 };
 
 export default useForm;
