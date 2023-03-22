@@ -1,10 +1,18 @@
+import Counter from "./components/Counter";
+import User from "./components/user";
+
 // App
-function App() {
+const App = () => {
   return (
     <>
-      <h1>Ola k ase, TSX</h1>
+      <h1>Ola k ase, Typescript o k ase</h1>
+      <hr />
+
+      <Counter />
+
+      <User />
     </>
   );
-}
+};
 
 export default App;
