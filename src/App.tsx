@@ -3,6 +3,7 @@ import User from "./components/User";
 
 import TimerFather from "./components/TimerFather";
 import CounterWithRed from "./components/CounterWithRed";
+import Form from "./components/Form";
 
 // App
 const App = () => {
@@ -20,6 +21,9 @@ const App = () => {
 
       <h2 className="mt-5">useReduces</h2>
       <CounterWithRed />
+
+      <h2 className="mt-5">customHooks</h2>
+      <Form />
     </>
   );
 };
