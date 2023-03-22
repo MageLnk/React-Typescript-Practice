@@ -9,7 +9,7 @@ const Counter = () => {
   };
 
   return (
-    <div className="mt-5">
+    <div className="mt-3">
       <h3>Counter:</h3>
       <span>Valor: {counter}</span>
       <br />

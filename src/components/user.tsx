@@ -1,13 +1,13 @@
 import { useState } from "react";
 
 //
-interface User {
+interface UserInterface {
   uid: string;
   name: string;
 }
 // App
 const User = () => {
-  const [user, setUser] = useState<User>();
+  const [user, setUser] = useState<UserInterface>();
 
   const login = () => {
     setUser({
@@ -17,8 +17,8 @@ const User = () => {
   };
 
   return (
-    <div className="mt-5">
-      <h3>Usuuario:</h3>
+    <div className="mt-3">
+      <h3>Usuario:</h3>
 
       <button className="btn btn-outline-primary" onClick={login}>
         Login
