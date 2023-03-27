@@ -1,11 +1,12 @@
-import { Navigation } from './routes/Navigation';
+import Navigation from "./routes/Navigation";
 
-function App() {
+// Appp
+const App = () => {
   return (
     <>
       <Navigation />
     </>
   );
-}
+};
 
 export default App;
