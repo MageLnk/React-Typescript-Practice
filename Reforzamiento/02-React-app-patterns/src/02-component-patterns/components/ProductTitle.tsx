@@ -4,10 +4,16 @@ import { ProductContext } from "./ProductCard";
 // styles
 import styles from "../styles/styles.module.css";
 // App
-const ProductTitle = ({ title }: { title?: string }) => {
+
+export interface ProductTitleProps {
+  title?: string;
+  className?: string;
+}
+
+const ProductTitle = ({ title, className }: ProductTitleProps) => {
   const { product } = useContext(ProductContext);
 
-  return <span className={styles.productDescription}>{title ? title : product.title}</span>;
+  return <span className={`${styles.productDescription} ${className}`}>{title ? title : product.title}</span>;
 };
 
 export default ProductTitle;
