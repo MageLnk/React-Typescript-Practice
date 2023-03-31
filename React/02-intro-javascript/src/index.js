@@ -1,1 +1,1 @@
-console.log("Ola k ase");
+console.log("Ola k ase, listo o k ase");
