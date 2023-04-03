@@ -3,7 +3,7 @@ describe("Given getImagen function", () => {
   test("It should return a url", async () => {
     // Arrange
     const url = await getImagen();
-    console.log("url", url);
+    expect(typeof url).toBe("string");
     // Act
     // Assert
   });
