@@ -4,6 +4,7 @@ describe("Given getImagen function", () => {
     // Arrange
     const url = await getImagen();
     expect(typeof url).toBe("string");
+    console.log("SADAFSD", url);
     // Act
     // Assert
   });

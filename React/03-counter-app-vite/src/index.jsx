@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 // Style
-import "./main.css";
+import "./index.css";
 // App
 import CounterApp from "./CounterApp";
 
